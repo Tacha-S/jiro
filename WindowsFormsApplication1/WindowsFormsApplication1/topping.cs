@@ -129,7 +129,7 @@ class Topping {
         }
     }
 
-    private string convertToJapanese(Volume callAmount){
+    public static string convertToJapanese(Volume callAmount){
         switch(callAmount){
             case Volume.NUKI:
                 return "抜き";
