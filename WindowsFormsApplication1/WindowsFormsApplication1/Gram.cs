@@ -5,7 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace WindowsFormsApplication1 {
-    class Noodle {
-        private Gram NoodleVolume { get; set; }
-    }
+    enum Gram {
+        SYOU=200,
+        DEFAULT=300,
+        DAI=500
+    };
 }
