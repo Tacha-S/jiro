@@ -70,11 +70,13 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(112, 9);
+            this.label1.BackColor = System.Drawing.Color.Gold;
+            this.label1.Font = new System.Drawing.Font("HG創英角ｺﾞｼｯｸUB", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label1.Location = new System.Drawing.Point(8, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(67, 12);
+            this.label1.Size = new System.Drawing.Size(274, 21);
             this.label1.TabIndex = 3;
-            this.label1.Text = "二郎System";
+            this.label1.Text = "ラーメン二郎　豊田高専店";
             // 
             // textBox1
             // 
@@ -106,6 +108,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Gold;
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button4);
