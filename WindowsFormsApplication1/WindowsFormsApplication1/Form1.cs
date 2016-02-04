@@ -34,7 +34,6 @@ namespace Jiro {
             label2.Text = "ニンニクいれますか";
         }
         private void button4_Click(object sender, EventArgs e) {
-            label2.Text = textBox1.Text;
             try {
                 topping = MrTaka.toppingMake(textBox1.Text);
                 string tx = "【" + j(product.NoodleVolume) + "おまたせ！】\n"
@@ -44,7 +43,8 @@ namespace Jiro {
                     + "カラメ:" + j(topping.sauce);
                 label3.Text = tx;
             } catch(Exception exc) {
-                label2.Text = exc.ToString();
+                var error = exc.ToString().Split(':','パ');
+                label2.Text = error[1];
             }
         }
         private string j(Topping.Volume v) {
