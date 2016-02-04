@@ -6,6 +6,6 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApplication1 {
     class Noodle {
-        private Gram NoodleVolume { get; set; }
+        public Gram NoodleVolume;
     }
 }

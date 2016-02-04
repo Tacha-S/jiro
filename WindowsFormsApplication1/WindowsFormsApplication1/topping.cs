@@ -5,11 +5,11 @@ namespace Jiro{
     
 
     class Topping {
-        
-        private Volume garlic { get; set; }     //ニンニク
-        private Volume vegetable { get; set; }  //ヤサイ
-        private Volume oil { get; set; }        //アブラ
-        private Volume sauce { get; set; }      //カラメ
+
+        public Volume garlic { get; set; }     //ニンニク
+        public Volume vegetable { get; set; }  //ヤサイ
+        public Volume oil { get; set; }        //アブラ
+        public Volume sauce { get; set; }      //カラメ
         public string jiroCall { get; set; }    //コール
         
         const string TOPPING_GARLIC = "ニンニク";
